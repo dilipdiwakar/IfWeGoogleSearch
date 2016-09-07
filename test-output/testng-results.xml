@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Search Engine Suite" duration-ms="33647" started-at="2016-09-07T09:16:00Z" finished-at="2016-09-07T09:16:34Z">
+    <groups>
+    </groups>
+    <test name="Sample Application Chrome Browser Test" duration-ms="18804" started-at="2016-09-07T09:16:00Z" finished-at="2016-09-07T09:16:19Z">
+      <class name="com.IfWe.testcases.GoogleSearchTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.IfWe.testcases.GoogleSearchTest@5025a98f]" name="setup" is-config="true" duration-ms="5772" started-at="2016-09-07T02:16:00Z" finished-at="2016-09-07T02:16:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:com.IfWe.testcases.GoogleSearchTest@5025a98f]" name="testMethod" duration-ms="1723" started-at="2016-09-07T02:16:06Z" data-provider="SearchGoogleDataProvider" finished-at="2016-09-07T02:16:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[i'm feeling lucky]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Images for i'm feeling lucky]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.IfWe.testcases.GoogleSearchTest@5025a98f]" name="tearDown" is-config="true" duration-ms="2037" started-at="2016-09-07T02:16:08Z" finished-at="2016-09-07T02:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.IfWe.testcases.GoogleSearchTest@5025a98f]" name="setup" is-config="true" duration-ms="6176" started-at="2016-09-07T02:16:10Z" finished-at="2016-09-07T02:16:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:com.IfWe.testcases.GoogleSearchTest@5025a98f]" name="testMethod" duration-ms="1797" started-at="2016-09-07T02:16:16Z" data-provider="SearchGoogleDataProvider" finished-at="2016-09-07T02:16:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[i'm feeling sorry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Images for i'm feeling sorry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.IfWe.testcases.GoogleSearchTest@5025a98f]" name="tearDown" is-config="true" duration-ms="1259" started-at="2016-09-07T02:16:18Z" finished-at="2016-09-07T02:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.IfWe.testcases.GoogleSearchTest -->
+    </test> <!-- Sample Application Chrome Browser Test -->
+    <test name="Sample Application FireFox Browser Test" duration-ms="33647" started-at="2016-09-07T09:16:00Z" finished-at="2016-09-07T09:16:34Z">
+      <class name="com.IfWe.testcases.GoogleSearchTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.IfWe.testcases.GoogleSearchTest@5f2108b5]" name="setup" is-config="true" duration-ms="13313" started-at="2016-09-07T02:16:00Z" finished-at="2016-09-07T02:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:com.IfWe.testcases.GoogleSearchTest@5f2108b5]" name="testMethod" duration-ms="4897" started-at="2016-09-07T02:16:14Z" data-provider="SearchGoogleDataProvider" finished-at="2016-09-07T02:16:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[i'm feeling lucky]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Images for i'm feeling lucky]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.IfWe.testcases.GoogleSearchTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="407" started-at="2016-09-07T02:16:18Z" finished-at="2016-09-07T02:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.IfWe.testcases.GoogleSearchTest@5f2108b5]" name="setup" is-config="true" duration-ms="8252" started-at="2016-09-07T02:16:19Z" finished-at="2016-09-07T02:16:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:com.IfWe.testcases.GoogleSearchTest@5f2108b5]" name="testMethod" duration-ms="6164" started-at="2016-09-07T02:16:27Z" data-provider="SearchGoogleDataProvider" finished-at="2016-09-07T02:16:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[i'm feeling sorry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Images for i'm feeling sorry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.IfWe.testcases.GoogleSearchTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="577" started-at="2016-09-07T02:16:33Z" finished-at="2016-09-07T02:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.IfWe.testcases.GoogleSearchTest -->
+    </test> <!-- Sample Application FireFox Browser Test -->
+  </suite> <!-- My Search Engine Suite -->
+</testng-results>

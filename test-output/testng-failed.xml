@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [My Search Engine Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Sample Application FireFox Browser Test">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.IfWe.testcases.GoogleSearchTest">
+        <methods>
+          <include name="GoogleSearchTest"/>
+        </methods>
+      </class> <!-- com.IfWe.testcases.GoogleSearchTest -->
+    </classes>
+  </test> <!-- Sample Application FireFox Browser Test -->
+  <test name="Sample Application Chrome Browser Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.IfWe.testcases.GoogleSearchTest">
+        <methods>
+          <include name="GoogleSearchTest"/>
+        </methods>
+      </class> <!-- com.IfWe.testcases.GoogleSearchTest -->
+    </classes>
+  </test> <!-- Sample Application Chrome Browser Test -->
+</suite> <!-- Failed suite [My Search Engine Suite] -->

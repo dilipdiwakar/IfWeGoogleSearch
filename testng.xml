@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Search Engine Suite" thread-count="2" parallel="methods" >
+<listeners>
+	<listener class-name="com.craft.CustomListener" />
+</listeners>
+
+<test name="Sample Application Test">
+    <classes>
+        <class name="com.IfWe.testcases.GoogleSearchTest" >
+        <methods>
+       		 <include name="GoogleSearchTest" />
+        </methods>
+        </class>  
+    </classes>
+</test>
+</suite>
